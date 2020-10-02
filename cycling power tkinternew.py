@@ -1,7 +1,10 @@
 # Bicycle power calculator
 
 #from tkinter import *
-import tkinter as tk
+
+# this to prevent VSC from identifying 100 warning because of the import *
+import tkinter as tk 
+
 
 window=tk.Tk()# create a window object
 
